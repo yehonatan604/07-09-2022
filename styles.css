@@ -1,0 +1,38 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-image: linear-gradient(to bottom right, rgb(197, 197, 226), transparent);
+    height: 20%;
+    width: 25%;
+    box-shadow: 2px 2px gray;
+}
+
+.container>div {
+    margin-top: 5%;
+}
+
+.outputDiv {
+    margin-bottom: 5%;
+}
+
+.radioBDiv,
+.container>div {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+button {
+    margin: auto;
+}
